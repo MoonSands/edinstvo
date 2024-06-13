@@ -1,5 +1,5 @@
 #from django.shortcuts import render, get_object_or_404
-#from django.http import HttpResponse, HttpResponseNotFound
+from django.http import HttpResponse
 from .models import *
 from rest_framework import generics, status
 from rest_framework.response import Response
@@ -12,7 +12,7 @@ from django.contrib.auth import authenticate
 
 
 def index(request):
-    pass
+    return HttpResponse("Главная")
 
 #Posts
 class PostAPIView(generics.ListAPIView):
