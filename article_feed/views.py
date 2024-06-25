@@ -179,6 +179,7 @@ class ProductUPdateDeleteAPIView(generics.RetrieveUpdateDestroyAPIView):
 from django.core.mail import send_mail, get_connection
 from django.conf import settings
 class CreateEmailAPIView(APIView):
+    permission_classes = [AllowAny]
     def post(self,request):
         print(request.data)
         data=request.data
