@@ -190,7 +190,7 @@ EMAIL_PORT = 465
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 EMAIL_HOST_USER = 'edinstvocenterzov@yandex.com'
-EMAIL_HOST_PASSWORD = 'hfmmcweyxfiwujmh'
+EMAIL_HOST_PASSWORD = 'bxidoxhfrjuokmhh'
 SERVER_EMAIL = EMAIL_HOST_USER
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
