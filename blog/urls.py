@@ -78,8 +78,8 @@ urlpatterns = [
     path('api/forms/create/', CreateEmailAPIView.as_view()),
     #Обращения может просматривать только Администратор
     #Обращения предназначены только для ознакомления
-    path('api/forms/all/', DataFromFormsAPIView.as_view()),
-    path('api/forms/<int:pk>/', DataFromFormsSingleAPIView.as_view()),
+    #path('api/forms/all/', DataFromFormsAPIView.as_view()),
+    #path('api/forms/<int:pk>/', DataFromFormsSingleAPIView.as_view()),
     
 ]
 
